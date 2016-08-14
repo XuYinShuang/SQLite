@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/delete"
+        android:hint="通过姓名删除信息"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sure"
+        android:text="确定删除"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

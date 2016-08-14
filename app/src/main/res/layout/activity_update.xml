@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/update"
+        android:hint="通过指定条件修改"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入修改的姓名"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/QQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入修改人的QQ"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/MSN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入修改人的MSN"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入修改人的号码"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入修改人的头像"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="确定修改"
+        android:textSize="18sp" />
+</LinearLayout>
